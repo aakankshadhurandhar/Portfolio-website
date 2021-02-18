@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    background-color:#FDF2F8;
+    margin: 0rem;
+    padding: 0rem;
+
+}
+
+html{
+    box-sizing: border-box;/* includes margin,content and padding*/
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;/* to see if we can see a scroll bar or not here it is hidden*/
+}
+.navbar{
+    background-color:#831843;
+    padding:0rem;
+    padding-top: 2rem;
+    border-bottom-left-radius: 2rem;
+    color: azure;
+    
+}
+.navbar ul{
+    list-style: none;
+    text-align: right;
+}
+.navbar li{
+    padding: 0rem .5rem;
+    display: inline;
+    font-size: 1.5rem;
+}
+.navbar a{
+    text-decoration: none;/*for no underline */
+    color: white;
+}
+.navbar .link_active{
+     font-weight:bold ;
+}
+.navbar a:hover{
+    color:#FCA5A5;
+}
