@@ -75,4 +75,22 @@ html{
    
    color: #DB2777;
 }
+/** technology section **/
+section{
+    display: block;
+}
+.one .tech{
+    padding: 1rem;
+    text-align: center;
+}
+.one{
+    padding: 0rem;
+    margin: 0rem;
+    background-color: #FBCFE8;
+}
+.one .tech1{
+    color: #DB2777;
+    text-align: center;
+    padding-bottom: 1rem;
+}
 
