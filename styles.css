@@ -5,6 +5,7 @@ body{
     background-color:#FDF2F8;
     margin: 0rem;
     padding: 0rem;
+    overflow-x: hidden;
 
 }
 
@@ -14,17 +15,22 @@ html{
     padding: 0;
     overflow-x: hidden;/* to see if we can see a scroll bar or not here it is hidden*/
 }
+/**navigation bar **/
 .navbar{
     background-color:#831843;
-    padding:0rem;
+    padding: 1rem;
     padding-top: 2rem;
     border-bottom-left-radius: 2rem;
     color: azure;
+    position: fixed;
+    top: 0;
+    width: 100%;
     
 }
 .navbar ul{
     list-style: none;
     text-align: right;
+    padding-right: 2rem;
 }
 .navbar li{
     padding: 0rem .5rem;
@@ -41,3 +47,32 @@ html{
 .navbar a:hover{
     color:#FCA5A5;
 }
+
+/** header  **/
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+    
+
+}
+
+.hero .hero-img {
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+/** text below header**/
+.hero .heading{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.hero .heading .quote{
+   
+   color: #DB2777;
+}
+
