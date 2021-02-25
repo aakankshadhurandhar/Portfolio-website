@@ -253,4 +253,32 @@ footer .fa-link{
     margin-left: 2rem;
     border-radius: 0.5rem;
 }
-
+/** blogs css**/
+.three {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    
+    text-align: left;
+    padding-bottom: 1.5rem;
+}
+.three button{
+    background-color: black;
+    text-decoration: none;
+    outline: none;
+    padding: 1rem;
+    color: whitesmoke;
+    border: 0;
+    padding: 0.9rem;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.three1{
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    
+    text-align: left;
+    padding-bottom: 1.5rem;
+    background-color: #FBCFE8;
+}
