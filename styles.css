@@ -6,6 +6,7 @@ body{
     margin: 0rem;
     padding: 0rem;
     overflow-x: hidden;
+    overflow-y: hidden;
 
 }
 
@@ -92,5 +93,143 @@ section{
     color: #DB2777;
     text-align: center;
     padding-bottom: 1rem;
+}
+/** projects**/
+.projects {
+    padding-top: .5rem;
+    text-align: center;
+    padding-bottom: 0rem;
+  }
+  
+  
+  .projects h2 {
+    font-size: 1.7rem;
+}
+/** project list**/
+.wrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#FDF2F8;
+  }
+  .container {
+    width: 1000px;
+    display: grid;
+    height: 0 auto;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 0.2rem;
+  }
+  /**grid-template: CSS property defines the line names and track sizing functions of the grid columns.**/
+  .box {
+    background-color:#BE185D;
+    padding: 40px;
+    color:white;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.3);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .container h1 {
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+    color: white;
+  }
+  .box button {
+    background-color: black;
+    text-decoration: none;
+    outline: none;
+    padding: 1rem;
+    color: whitesmoke;
+    border: 0;
+    padding: 0.9rem;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+/**footer **/
+.footer{
+    background-color:#831843;
+    padding-bottom: 0rem;
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    
+}
+.footer ul{
+        list-style: none;
+        display: inline;
+    
+        
+}
+.footer li{
+    display: inline;
+    
+}
+/**icons social media **/
+.footer .fa-linkedin{
+    background-color: white;
+    padding: 10px 20px 20px 10px ;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+footer .fa-google{
+    background-color: white;
+    padding: 10px 20px 20px 10px ;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+}
+footer .fa-medium{
+    background-color: white;
+    padding: 10px 25px 20px 15px ;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+}
+footer .fa-twitter{
+    background-color: white;
+    padding: 10px 25px 20px 15px ;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+}
+footer .fa-link{
+    background-color: white;
+    padding: 10px 25px 20px 15px ;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2rem;
+    border-radius: 0.5rem;
 }
 
