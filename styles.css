@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-body{
+
+body {
 
     font-family: 'Montserrat', sans-serif;
-    background-color:#FDF2F8;
+    background-color: #FDF2F8;
     margin: 0rem;
     padding: 0rem;
     overflow-x: hidden;
@@ -10,15 +11,18 @@ body{
 
 }
 
-html{
-    box-sizing: border-box;/* includes margin,content and padding*/
+html {
+    box-sizing: border-box;
+    /* includes margin,content and padding*/
     margin: 0;
     padding: 0;
-    overflow-x: hidden;/* to see if we can see a scroll bar or not here it is hidden*/
+    overflow-x: hidden;
+    /* to see if we can see a scroll bar or not here it is hidden*/
 }
+
 /**navigation bar **/
-.navbar{
-    background-color:#831843;
+.navbar {
+    background-color: #831843;
     padding: 1rem;
     padding-top: 2rem;
     border-bottom-left-radius: 2rem;
@@ -26,34 +30,40 @@ html{
     position: fixed;
     top: 0;
     width: 100%;
-    
+
 }
-.navbar ul{
+
+.navbar ul {
     list-style: none;
     text-align: right;
     padding-right: 2rem;
 }
-.navbar li{
+
+.navbar li {
     padding: 0rem .5rem;
     display: inline;
     font-size: 1.5rem;
 }
-.navbar a{
-    text-decoration: none;/*for no underline */
+
+.navbar a {
+    text-decoration: none;
+    /*for no underline */
     color: white;
 }
-.navbar .link_active{
-     font-weight:bold ;
+
+.navbar .link_active {
+    font-weight: bold;
 }
-.navbar a:hover{
-    color:#FCA5A5;
+
+.navbar a:hover {
+    color: #FCA5A5;
 }
 
 /** header  **/
 .hero {
     padding: 2rem;
     padding-top: 5rem;
-    
+
 
 }
 
@@ -66,45 +76,52 @@ html{
 }
 
 /** text below header**/
-.hero .heading{
+.hero .heading {
     text-align: center;
     padding-top: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
 }
-.hero .heading .quote{
-   
-   color: #DB2777;
+
+.hero .heading .quote {
+
+    color: #DB2777;
 }
+
 /** technology section **/
-section{
+section {
     display: block;
 }
-.one .tech{
+
+.one .tech {
     padding: 1rem;
     text-align: center;
 }
-.one{
+
+.one {
     padding: 0rem;
     margin: 0rem;
     background-color: #FBCFE8;
 }
-.one .tech1{
+
+.one .tech1 {
     color: #DB2777;
     text-align: center;
     padding-bottom: 1rem;
 }
+
 /** projects**/
 .projects {
     padding-top: .5rem;
     text-align: center;
     padding-bottom: 0rem;
-  }
-  
-  
-  .projects h2 {
+}
+
+
+.projects h2 {
     font-size: 1.7rem;
 }
+
 /** project list**/
 .wrapper {
     margin: 0;
@@ -113,9 +130,10 @@ section{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color:#FDF2F8;
-  }
-  .container {
+    background-color: #FDF2F8;
+}
+
+.container {
     width: 1000px;
     display: grid;
     height: 0 auto;
@@ -125,24 +143,27 @@ section{
     padding: 15px;
     box-sizing: border-box;
     margin-bottom: 0.2rem;
-  }
-  /**grid-template: CSS property defines the line names and track sizing functions of the grid columns.**/
-  .box {
-    background-color:#BE185D;
+}
+
+/**grid-template: CSS property defines the line names and track sizing functions of the grid columns.**/
+.box {
+    background-color: #BE185D;
     padding: 40px;
-    color:white;
+    color: white;
     text-align: left;
     border-radius: 10px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.3);
     margin-top: 1rem;
     margin-bottom: 0.5rem;
-  }
-  .container h1 {
+}
+
+.container h1 {
     margin-bottom: 1.5rem;
     font-size: 20px;
     color: white;
-  }
-  .box button {
+}
+
+.box button {
     background-color: black;
     text-decoration: none;
     outline: none;
@@ -154,18 +175,20 @@ section{
     padding-bottom: 1rem;
     font-weight: bold;
     border-radius: 10px;
-  }
-  /**internships **/
-  .wrapper1 {
+}
+
+/**internships **/
+.wrapper1 {
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 40vh;
-    background-color:#FDF2F8;
-  }
-  .container1 {
+    background-color: #FDF2F8;
+}
+
+.container1 {
     width: 800px;
     display: grid;
     height: 0 auto;
@@ -175,32 +198,36 @@ section{
     padding: 0px;
     box-sizing: border-box;
     margin-bottom: 0.2rem;
-  }
+}
+
 /**footer **/
-.footer{
-    background-color:#831843;
+.footer {
+    background-color: #831843;
     padding-bottom: 0rem;
     text-align: center;
     color: white;
     padding-top: 2rem;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
-    
+
 }
-.footer ul{
-        list-style: none;
-        display: inline;
-    
-        
-}
-.footer li{
+
+.footer ul {
+    list-style: none;
     display: inline;
-    
+
+
 }
+
+.footer li {
+    display: inline;
+
+}
+
 /**icons social media **/
-.footer .fa-linkedin{
+.footer .fa-linkedin {
     background-color: white;
-    padding: 10px 20px 20px 10px ;
+    padding: 10px 20px 20px 10px;
     font-size: 30px;
     width: 10px;
     height: 10px;
@@ -208,9 +235,10 @@ section{
     text-decoration: none;
     border-radius: 0.5rem;
 }
-footer .fa-google{
+
+footer .fa-google {
     background-color: white;
-    padding: 10px 20px 20px 10px ;
+    padding: 10px 20px 20px 10px;
     font-size: 30px;
     width: 10px;
     height: 10px;
@@ -219,9 +247,10 @@ footer .fa-google{
     margin-left: 2rem;
     border-radius: 0.5rem;
 }
-footer .fa-medium{
+
+footer .fa-medium {
     background-color: white;
-    padding: 10px 25px 20px 15px ;
+    padding: 10px 25px 20px 15px;
     font-size: 30px;
     width: 10px;
     height: 10px;
@@ -231,9 +260,10 @@ footer .fa-medium{
     margin-bottom: 1rem;
     border-radius: .5rem;
 }
-footer .fa-twitter{
+
+footer .fa-twitter {
     background-color: white;
-    padding: 10px 25px 20px 15px ;
+    padding: 10px 25px 20px 15px;
     font-size: 30px;
     width: 10px;
     height: 10px;
@@ -242,9 +272,10 @@ footer .fa-twitter{
     margin-left: 2rem;
     border-radius: 0.5rem;
 }
-footer .fa-link{
+
+footer .fa-link {
     background-color: white;
-    padding: 10px 25px 20px 15px ;
+    padding: 10px 25px 20px 15px;
     font-size: 30px;
     width: 10px;
     height: 10px;
@@ -253,15 +284,17 @@ footer .fa-link{
     margin-left: 2rem;
     border-radius: 0.5rem;
 }
+
 /** blogs css**/
 .three {
     padding-top: 1rem;
     padding-left: 1.5rem;
-    
+
     text-align: left;
     padding-bottom: 1.5rem;
 }
-.three button{
+
+.three button {
     background-color: black;
     text-decoration: none;
     outline: none;
@@ -274,11 +307,17 @@ footer .fa-link{
     font-weight: bold;
     border-radius: 10px;
 }
-.three1{
+
+.three1 {
     padding-top: 1rem;
     padding-left: 1.5rem;
-    
+
     text-align: left;
     padding-bottom: 1.5rem;
     background-color: #FBCFE8;
+}
+
+.action-btns {
+    width: 500px;
+    margin: 0 auto;
 }
