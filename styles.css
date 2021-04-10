@@ -24,7 +24,7 @@ html {
 .navbar {
     background-color: #831843;
     padding: 1rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
     border-bottom-left-radius: 2rem;
     color: azure;
     position: fixed;
