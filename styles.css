@@ -316,7 +316,19 @@ footer .fa-link {
     padding-bottom: 1.5rem;
     background-color: #FBCFE8;
 }
-
+.three1 button {
+    background-color: black;
+    text-decoration: none;
+    outline: none;
+    padding: 1rem;
+    color: whitesmoke;
+    border: 0;
+    padding: 0.9rem;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
 .action-btns {
     width: 500px;
     margin: 0 auto;
